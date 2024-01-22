@@ -1,0 +1,53 @@
+@font-face {
+	font-family: "daniel-regular";
+	src: url("fonts/daniel-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: montserrat;
+	src:url("fonts/montserrat-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style:normal;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	height:100%;
+	justify-content: center;
+	background-color: #FF9D9D;
+}
+
+body {
+	background-image: url(images/Untitled\ design.png);
+	background-position: top center;
+	background-size: cover;
+}
+
+#main {
+	margin:auto;
+}
+#head1 {
+	font-family: "daniel-regular";
+	font-size: 3em;
+	color: white;
+}
+
+#yesButton {
+	color: white;
+	/* DarkerColour=#EE3338 */
+	/* LighterColour=#FF5757 */
+	/* background-image: linear-gradient(45deg,#EE3338 60%,#FF5757);	 */
+	background-color: #EE3338;
+	padding: 0 1.5em;
+}
+
+
+a:hover {
+	color:black;
+}
